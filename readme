@@ -1,1 +1,46 @@
 
+
+# VisualQuest: A Diverse Image Dataset for Evaluating Visual Recognition in LLMs
+
+## Dataset Availability
+
+The VisualQuest dataset is publicly available through this repository. To prevent potential misuse, the repository currently includes 352 sample images, with the full complement of 3,529 images scheduled for public release upon acceptance of the paper.
+
+The dataset is organized in a structured JSON file (label.json) that contains comprehensive labeling information. For example, a subset of the labels is structured as follows:
+
+```json
+{
+"1000": ["Shakespear", "Public Figures", "Which Celebrity?", "Minimalism", 
+[1, 0, 0, 1, 0, 0], 2],
+"1500": ["Silence of The Lambs", "Popular Media", "Which movie?", "Symbolism", 
+[1, 0, 0, 0, 1, 0], 2],
+"2000": ["Smart Cookie", "Linguistic Expressions", "Guess Idiom", "Visual Pun", 
+[1, 1, 0, 1, 0, 0], 3],
+"3000": ["Harry Potter", "Literary Works", "Which fictional work?", "Illustration", 
+[1, 0, 0, 0, 0, 1], 2]
+}
+```
+
+In addition to the dataset itself, the repository provides several Jupyter Notebook files that facilitate reproducibility and transparency in our experimental procedures. Specifically:
+
+- `0 Preprocess.ipynb`: Responsible for the preprocessing of the raw data
+- `1 Visual Pun Detection.ipynb`: Demonstrates the application of the dataset in evaluating large language models
+- `2 Data Analysis.ipynb`: Used to analyze the experimental results
+
+These supplementary materials have been provided to ensure that the dataset can be easily integrated into future research work, thereby advancing studies in multimodal reasoning and visual recognition in large language models.
+
+## Ethical Responsibility
+
+The VisualQuest dataset has been compiled exclusively from publicly accessible resources using rigorous ethical guidelines. We have ensured that every image respects intellectual property rights and is free of misuse. This dataset is intended solely for academic research and development in multimodal reasoning and visual recognition. Users are encouraged to apply similar ethical standards and review any relevant third-party policies when utilizing these materials.
+
+## Consent and Privacy
+
+VisualQuest is designed with privacy as a priority. No raw images of private individuals are included. Instead, the dataset features transformed and stylized depictions—such as altered representations of public figures—so that no personally identifiable information is exposed. Because the source materials are either in the public domain or have been artistically transformed, explicit informed consent was not applicable.
+
+## Licensing
+
+VisualQuest is distributed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. This license permits non-commercial use and derivative works, provided that appropriate credit is given to the original creators.
+
+## Legal Compliance
+
+The creation and release of VisualQuest have been carried out in full compliance with all applicable regional and international legal requirements. All images are obtained from sources that allow their use under proper licensing, ensuring that there is no infringement of copyright or data protection regulations. Users are expected to adhere to all relevant legal frameworks when incorporating the dataset into their research.

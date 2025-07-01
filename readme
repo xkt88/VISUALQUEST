@@ -4,7 +4,7 @@
 
 ## Dataset Availability
 
-The VisualQuest dataset is publicly available through this repository. To prevent potential misuse, the repository currently includes 352 sample images, with the full complement of 3,529 images scheduled for public release upon acceptance of the paper.
+The VisualQuest dataset is publicly available through this repository. 
 
 The dataset is organized in a structured JSON file (label.json) that contains comprehensive labeling information. For example, a subset of the labels is structured as follows:
 
